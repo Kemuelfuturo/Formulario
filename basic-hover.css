@@ -1,0 +1,30 @@
+.div-title:hover {
+    background-color: rgba(0, 0, 0, 0.515);
+    -webkit-transition: 1s;
+}
+
+.name:hover,.email:hover,
+.address:hover, .city:hover,
+.number:hover, .user:hover,
+.password:hover {
+    -webkit-transition: 1s;
+    border-radius: 25px;
+    margin-left: 220px;
+    padding: 10px 50px 5px 10px;
+    background-color: rgba(85, 255, 0, 0.092);
+}
+
+.submit:hover {
+    font-size: 15px;
+    -webkit-transition: 1s;
+    padding: 10px 60px;
+    border: 2px solid #000;
+    background-color: rgb(232, 119, 6);
+}
+
+.copy a:hover {
+    -webkit-animation-delay: 1s;
+    -webkit-transition: 1s;
+    font-size: 18px;
+    color: rgb(232, 119, 6);
+}

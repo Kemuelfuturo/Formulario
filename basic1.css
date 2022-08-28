@@ -1,0 +1,91 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(stories.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*titulo do formulário*/
+
+.div-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 80px;
+    border-radius: 30px;
+}
+
+.title h1 {
+    text-shadow: 2px 15px 10px rgb(128, 6, 6);
+    color: #ffffff;
+   font-size: 40px;
+}
+
+.descrition {
+    text-align: center;
+}
+
+.descrition h5 {
+    font-size: 20px;
+    color: #ffffffe9;
+}
+
+
+/*áreas de preenchimentos do formulário*/
+
+.form {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .email, .address,
+.city, .number, .user,
+.password {
+    padding-bottom: 20px;
+    width: 350px;
+    color: #ffffffcd;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    margin: 20px 200px 5px 200px;
+    border: 0;
+    border-bottom: 1px solid #ffffff84;
+}
+
+.name:focus, .email:focus, .address:focus,
+.city:focus, .number:focus, .user:focus,
+.password:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.submit {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 100px;
+    margin-top: 45px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 50px;
+}
+.copy {
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #fff;
+}
+.copy a {
+    color:#fff;
+}
